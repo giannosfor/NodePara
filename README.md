@@ -1,5 +1,3 @@
-Problem
-
 You can tell that cellular phones are at work in rural communities, from
 the giant microwave towers you sometimes see sprouting out of corn
 fields and cow pastures. Let’s consider a very simplified model of a
@@ -11,9 +9,9 @@ parameter A > 0. We call the set of cell phones fully connected if it is
 possible to assign each phone to a base station in such a way that
 
 * Each phone is assigned to a different base station, and
-* If a phone at p~ is assigned to a base station at bj, then the straight-line
-* 
-distance between the points Pi and b1 is at most A.
+* If a phone at pi is assigned to a base station at bj, then the straight-line
+  distance between the points Pi and b1 is at most Δ.
+
 Suppose that the owner of the cell phone at point Pl decides to go
 for a drive, traveling continuously for a total of z units of distance due
 east. As this cell phone moves, we may have to update the assignment of
@@ -36,8 +34,8 @@ base stations at bl = (1, 1) and b2 ----- (3, 1); and A = 2. Now consider the ca
 in which the phone at pl moves due east a distance of 4 units, ending at
 (4, 0). Then it is possible to keep the phones fully connected during this
 Exercises
-motion: We begin by assigning Pl to b~ and P2 to b2, and we reassign pl to
-bz and Pz to b~ during the motion (for example, when p~ passes the point
+motion: We begin by assigning Pl to b1 and P2 to b2, and we reassign pl to
+b2 and P2 to b1 during the motion (for example, when p1 passes the point
 (2, 0)).
 
 Algorithm Design by Jon Kleinberg and Éva Tardos
