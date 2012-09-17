@@ -12,7 +12,7 @@ possible to assign each phone to a base station in such a way that
 * If a phone at pi is assigned to a base station at bj, then the straight-line
   distance between the points Pi and b1 is at most Δ.
 
-Suppose that the owner of the cell phone at point Pl decides to go
+Suppose that the owner of the cell phone at point p1 decides to go
 for a drive, traveling continuously for a total of z units of distance due
 east. As this cell phone moves, we may have to update the assignment of
 phones to base stations (possibly several times) in order to keep the set
@@ -29,12 +29,12 @@ You should try to make your algorithm run in O(n3) time if possible.
 
 Example.
 
-Suppose we have phones at Pl = (0, 0) and P2 = (2, 1); we have
+Suppose we have phones at p1 = (0, 0) and P2 = (2, 1); we have
 base stations at bl = (1, 1) and b2 ----- (3, 1); and A = 2. Now consider the case
-in which the phone at pl moves due east a distance of 4 units, ending at
+in which the phone at p1 moves due east a distance of 4 units, ending at
 (4, 0). Then it is possible to keep the phones fully connected during this
 Exercises
-motion: We begin by assigning Pl to b1 and P2 to b2, and we reassign pl to
+motion: We begin by assigning p1 to b1 and P2 to b2, and we reassign pl to
 b2 and P2 to b1 during the motion (for example, when p1 passes the point
 (2, 0)).
 
